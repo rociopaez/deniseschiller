@@ -4,33 +4,51 @@
     <meta charset="utf-8">
     <title>Denise Schiller architects</title>
     <meta name="author" content="Rocio Paez">
-    <link rel="stylesheet" href="css/schiller.css" type="text/css">
+    <link rel="stylesheet" href="css/deniseschiller.css" type="text/css">
     <script src="https://use.typekit.net/nsu5jru.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="/js/deniseschiller.js"></script>
   </head>
-  <body>
-    <header>
-      <h1 class="banner">
-        <a href="index.html">
-          Denise Schiller
-        </a>
-      </h1>
-    </header>
-    <nav>
-      <ul class="right">
-        <li><a href="./projects.html">Projects</a></li>
-        <li><a href="./profile.html">Profile</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <body class="{{ page.uid }}">
+    <div id="ribbon">
+      <header>
+        <h1 class="banner">
+          <a href="index.html">
+            Denise Schiller
+          </a>
+        </h1>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            Projects
+            <ul>
+              <li>
+                <a href="/collado.html">Collado</a>
+              </li>
+              <li>
+                <a href="/dpto_panama.html">Dpto Panama</a>
+              </li>
+              <li>
+                <a href="/jenny.html">Jenny</a>
+              </li>
+              <li>
+                <a href="/silvia_alex.html">Silvia Alex</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/profile.html">Profile</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <main>
       {{ content }}
-      <figure>
-        <img src="./img/1208_2358.jpg">
-        <figcaption class="caption">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </figcaption>
-      </figure>
     </main>
   </body>
 </html>

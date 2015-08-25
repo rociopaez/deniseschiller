@@ -1,0 +1,105 @@
+---
+---
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: "ff-nuvo-web-pro", sans-serif;
+	position: relative;
+	padding: 0;
+	margin: 0;
+
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+
+	&.home {
+		background-image: url(/img/dpto_panama/1208_2358.jpg);
+	}
+
+	&.collado {
+		background-image: url(/img/collado/DSC012.jpg);
+	}
+
+	&.dpto_panama {
+		background-image: url(/img/dpto_panama/1208_2358.jpg);
+	}
+
+	&.jenny {
+		background-image: url(/img/jenny/IMG_3846.jpg);
+	}
+
+	&.silvia_alex {
+		background-image: url(/img/silvia_alex/IMG_8229.JPG);
+	}
+
+	&.profile {
+		background-image: url(/img/profile.png);
+		background-position: bottom right;
+		background-size: auto auto;
+		background-color: #fafafa;
+	}
+
+}
+
+#ribbon {
+	position: absolute;
+	background-color: white;
+	width: 220px;
+	top: 0;
+	left: 44px;
+	padding: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+
+	h1 {
+		font-size: 32px;
+		line-height: 44px;
+		margin: 0;
+		padding: 44px 11px;
+	}
+
+	a {
+		color: black;
+		text-decoration: none;
+	}
+
+	ul {
+		margin: 0;
+		padding: 11px;
+	}
+
+	li {
+		font-family: "ff-nuvo-sc-web-pro", sans-serif;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 18px;
+		line-height: 44px;
+		text-transform: lowercase;
+		letter-spacing: 1px;
+
+		&.active {
+			font-weight: bold;
+		}
+
+		li {
+			line-height: 22px;
+		}
+	}
+}
+
+.main-canvas {
+	margin: 0;
+	padding: 176px 44px 44px 308px;
+	max-width: 660px;
+	line-height: 22px;
+	font-size: 16px;
+
+	p {
+		margin-bottom: 22px;
+	}
+}
