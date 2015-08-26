@@ -21,7 +21,12 @@ body {
 	}
 
 	&.collado {
-		background-image: url(/img/collado/DSC012.jpg);
+		&.step-1 {
+			background-image: url(/img/collado/DSC012.jpg);
+		}
+		&.step-2 {
+			background-image: url(/img/collado/DSC013.jpg);
+		}
 	}
 
 	&.dpto_panama {
