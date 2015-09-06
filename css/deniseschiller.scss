@@ -230,8 +230,6 @@ footer {
 	}
 }
 
-
-
 #left {
 	position: fixed;
 	bottom: 0;
@@ -256,4 +254,13 @@ footer {
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
+}
+
+a:link
+{
+ text-decoration:none;
+}
+
+.hidden {
+	display: none;
 }

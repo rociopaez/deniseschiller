@@ -57,5 +57,9 @@ $(document).ready(function() {
 
     $left.on("click", transitionBackgroundBack);
     $right.on("click", transitionBackground);
-  }
+  } else {
+    $footer.addClass("hidden");
+    $left.addClass("hidden");
+    $right.addClass("hidden");
+  };
 });
