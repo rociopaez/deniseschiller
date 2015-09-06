@@ -232,14 +232,27 @@ footer {
 
 
 
+#left {
 	position: fixed;
-	bottom: 11px;
-	right: 11px;
+	bottom: 0;
+	left: 11px;
 	height: 44px;
-	color: white;
+	color: #ccc;
 	font-size: 36px;
 	line-height: 44px;
-	font-family: palatino;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+#right {
+	position: fixed;
+	bottom: 0;
+	right: 11px;
+	height: 44px;
+	color: #ccc;
+	font-size: 36px;
+	line-height: 44px;
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
