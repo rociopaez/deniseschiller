@@ -17,7 +17,7 @@ body {
 	background-repeat: no-repeat;
 
 	&.home {
-		background-image: url(/img/dpto_panama/1208_2358.jpg);
+		background-image: url(/img/jenny/IMG_3846.jpg);
 	}
 
 	&.collado {
@@ -52,7 +52,7 @@ body {
 
 	&.jenny {
 		&.step-0 {
-			background-image: url(/img/jenny/IMG_3846.jpg);
+			background-image: url(/img/jenny/IMG_3844.jpg);
 		}
 		&.step-1 {
 			background-image: url(/img/jenny/IMG_3876.jpg);
@@ -234,7 +234,7 @@ footer {
 #left {
 	position: fixed;
 	bottom: 0;
-	left: 11px;
+	left: 44px;
 	height: 44px;
 	color: #ccc;
 	font-size: 36px;
@@ -247,7 +247,7 @@ footer {
 #right {
 	position: fixed;
 	bottom: 0;
-	right: 11px;
+	right: 44px;
 	height: 44px;
 	color: #ccc;
 	font-size: 36px;
@@ -264,4 +264,34 @@ a:link
 
 .hidden {
 	display: none;
+}
+
+@media only screen and (max-device-width: 640px) {
+	#left, #right, footer {
+		height: 132px;
+		line-height: 132px;
+	}
+
+	footer {
+		font-size: 48px;
+	}
+
+	#left, #right {
+		font-size: 72px;
+	}
+}
+
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+	#left, #right, footer {
+		height: 88px;
+		line-height: 88px;
+	}
+
+	footer {
+		font-size: 36px;
+	}
+
+	#left, #right {
+		font-size: 48px;
+	}
 }
