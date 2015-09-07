@@ -17,7 +17,8 @@ body {
 	background-repeat: no-repeat;
 
 	&.home {
-		background-image: url(/img/jenny/IMG_3846.jpg);
+		background-image: url(/img/IMG_6617.jpg)
+		// background-image: url(/img/jenny/IMG_3846.jpg);
 	}
 
 	&.collado {
@@ -34,16 +35,16 @@ body {
 
 	&.dpto_panama {
 		&.step-0 {
-			background-image: url(/img/dpto_panama/1208_2358.jpg);
+			background-image: url(/img/dpto_panama/1208_2436.jpg);
 		}
 		&.step-1 {
-			background-image: url(/img/dpto_panama/1208_2342.jpg);
+			background-image: url(/img/dpto_panama/1208_2358.jpg);
 		}
 		&.step-2 {
-			background-image: url(/img/dpto_panama/1208_2383.jpg);
+			background-image: url(/img/dpto_panama/1208_2342.jpg);
 		}
 		&.step-3 {
-			background-image: url(/img/dpto_panama/1208_2436.jpg);
+			background-image: url(/img/dpto_panama/1208_2383.jpg);
 		}
 		&.step-4 {
 			background-image: url(/img/dpto_panama/1209_2335.jpg);
@@ -70,48 +71,54 @@ body {
 
 	&.silvia_alex {
 		&.step-0 {
-			background-image: url(/img/silvia_alex/IMG_8229.JPG);
-		}
-		&.step-1 {
-			background-image: url(/img/silvia_alex/IMG_6518.JPG);
-		}
-		&.step-2 {
-			background-image: url(/img/silvia_alex/IMG_6519.JPG);
-		}
-		&.step-3 {
-			background-image: url(/img/silvia_alex/IMG_6520.JPG);
-		}
-		&.step-4 {
-			background-image: url(/img/silvia_alex/IMG_6544.JPG);
-		}
-		&.step-5 {
 			background-image: url(/img/silvia_alex/IMG_6553.JPG);
 		}
-		&.step-6 {
+		&.step-1 {
 			background-image: url(/img/silvia_alex/IMG_8231.JPG);
+		}
+		&.step-2 {
+			background-image: url(/img/silvia_alex/IMG_8229.JPG);
+		}
+		&.step-3 {
+			background-image: url(/img/silvia_alex/IMG_6518.JPG);
+		}
+		&.step-4 {
+			background-image: url(/img/silvia_alex/IMG_6519.JPG);
+		}
+		&.step-5 {
+			background-image: url(/img/silvia_alex/IMG_6520.JPG);
+		}
+		&.step-6 {
+			background-image: url(/img/silvia_alex/IMG_6544.JPG);
 		}
 	}
 
 	&.fx {
 		&.step-0 {
-			background-image: url(/img/fx/IMG_6584.jpg);
+			background-image: url(/img/fx/IMG_6598.jpg);
 		}
 		&.step-1 {
-			background-image: url(/img/fx/IMG_6587.jpg);
+			background-image: url(/img/fx/IMG_6600.jpg);
 		}
 		&.step-2 {
-			background-image: url(/img/fx/IMG_6589.jpg);
+			background-image: url(/img/fx/IMG_6587.jpg);
 		}
 		&.step-3 {
-			background-image: url(/img/fx/IMG_6590.jpg);
+			background-image: url(/img/fx/IMG_6589.jpg);
 		}
 		&.step-4 {
-			background-image: url(/img/fx/IMG_6593.jpg);
+			background-image: url(/img/fx/IMG_6590.jpg);
 		}
 		&.step-5 {
-			background-image: url(/img/fx/IMG_6609.jpg);
+			background-image: url(/img/fx/IMG_6593.jpg);
 		}
 		&.step-6 {
+			background-image: url(/img/fx/IMG_6584.jpg);
+		}
+		&.step-7 {
+			background-image: url(/img/fx/IMG_6609.jpg);
+		}
+		&.step-8 {
 			background-image: url(/img/fx/IMG_6613.jpg);
 		}
 	}
