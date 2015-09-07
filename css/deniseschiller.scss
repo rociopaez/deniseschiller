@@ -17,19 +17,20 @@ body {
 	background-repeat: no-repeat;
 
 	&.home {
-		background-image: url(/img/IMG_6617.jpg)
+		background-image: url(/img/home/IMG_6612.jpg)
+		// background-image: url(/img/home/IMG_6617.jpg)
 		// background-image: url(/img/jenny/IMG_3846.jpg);
 	}
 
 	&.collado {
 		&.step-0 {
-			background-image: url(/img/collado/DSC012.jpg);
+			background-image: url(/img/collado/DSC014.jpg);
 		}
 		&.step-1 {
-			background-image: url(/img/collado/DSC013.jpg);
+			background-image: url(/img/collado/DSC012.jpg);
 		}
 		&.step-2 {
-			background-image: url(/img/collado/DSC014.jpg);
+			background-image: url(/img/collado/DSC013.jpg);
 		}
 	}
 
@@ -95,22 +96,22 @@ body {
 
 	&.fx {
 		&.step-0 {
-			background-image: url(/img/fx/IMG_6598.jpg);
+			background-image: url(/img/fx/IMG_6593.jpg);
 		}
 		&.step-1 {
-			background-image: url(/img/fx/IMG_6600.jpg);
+			background-image: url(/img/fx/IMG_6598.jpg);
 		}
 		&.step-2 {
-			background-image: url(/img/fx/IMG_6587.jpg);
+			background-image: url(/img/fx/IMG_6600.jpg);
 		}
 		&.step-3 {
-			background-image: url(/img/fx/IMG_6589.jpg);
+			background-image: url(/img/fx/IMG_6587.jpg);
 		}
 		&.step-4 {
-			background-image: url(/img/fx/IMG_6590.jpg);
+			background-image: url(/img/fx/IMG_6589.jpg);
 		}
 		&.step-5 {
-			background-image: url(/img/fx/IMG_6593.jpg);
+			background-image: url(/img/fx/IMG_6590.jpg);
 		}
 		&.step-6 {
 			background-image: url(/img/fx/IMG_6584.jpg);
@@ -145,7 +146,7 @@ body {
 	}
 
 	&.profile {
-		background-image: url(/img/profile2.png);
+		background-image: url(/img/profile/profile2.png);
 		background-position: bottom right;
 		background-size: auto auto;
 		background-color: #fafafa;
@@ -161,7 +162,7 @@ body {
 	top: 0;
 	left: 44px;
 	padding: 0;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.7);
 	color: black;
 
 	h1 {
