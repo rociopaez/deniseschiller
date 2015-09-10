@@ -162,7 +162,7 @@ body {
 	top: 0;
 	left: 44px;
 	padding: 0;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.6);
 	color: black;
 
 	h1 {
@@ -173,7 +173,7 @@ body {
 	}
 
 	a {
-		color: black;
+		color: rgb(29, 30, 32);
 		text-decoration: none;
 	}
 
@@ -198,6 +198,7 @@ body {
 
 		&.contact {
 			font-size: 14px;
+			font-family: "ff-nuvo-web-pro", sans-serif;
 		}
 
 		li {
