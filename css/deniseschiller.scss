@@ -19,7 +19,7 @@ body {
 	background-repeat: no-repeat;
 
 	&.home {
-		background-image: url(/img/home/IMG_6612.jpg)
+		background-image: url(/img/home/IMG_6612.jpg);
 		// background-image: url(/img/home/IMG_6617.jpg)
 		// background-image: url(/img/jenny/IMG_3846.jpg);
 	}
@@ -190,7 +190,7 @@ body {
 		list-style: none;
 		font-size: 18px;
 		line-height: 44px;
-		text-transform: lowercase;
+		text-transform: capitalize;
 		letter-spacing: 1px;
 
 		&.active {
