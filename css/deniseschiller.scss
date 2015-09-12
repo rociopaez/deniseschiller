@@ -1,13 +1,15 @@
 ---
 ---
 
+$font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+
 html {
 	height: 100%;
 }
 
 body {
 	height: 100%;
-	font-family: "ff-nuvo-web-pro", sans-serif;
+	font-family: $font-family;
 	position: relative;
 	padding: 0;
 	margin: 0;
@@ -152,7 +154,6 @@ body {
 		background-color: #fafafa;
 
 	}
-
 }
 
 #ribbon {
@@ -183,7 +184,7 @@ body {
 	}
 
 	li {
-		font-family: "ff-nuvo-sc-web-pro", sans-serif;
+		font-family: Didot, $font-family;
 		margin: 0;
 		padding: 0;
 		list-style: none;
@@ -198,7 +199,7 @@ body {
 
 		&.contact {
 			font-size: 14px;
-			font-family: "ff-nuvo-web-pro", sans-serif;
+			font-family: $font-family;
 		}
 
 		li {
@@ -220,7 +221,7 @@ body {
 }
 
 footer {
-	background-color: rgba(0,0,0,0.5);
+	// background-color: rgba(0,0,0,0.5);   la barra negra
 	position: fixed;
 	bottom: 0;
 	right: 0;
@@ -244,10 +245,10 @@ footer {
 	position: fixed;
 	bottom: 0;
 	left: 44px;
-	height: 44px;
-	color: #ccc;
+	height: 66px;
+	color: rgba(255,255,255,0.6);
 	font-size: 36px;
-	line-height: 44px;
+	line-height: 66px;
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
@@ -257,10 +258,10 @@ footer {
 	position: fixed;
 	bottom: 0;
 	right: 44px;
-	height: 44px;
-	color: #ccc;
+	height: 66px;
+color: rgba(255,255,255,0.6);
 	font-size: 36px;
-	line-height: 44px;
+	line-height: 66px;
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
