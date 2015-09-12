@@ -4,14 +4,14 @@ function transitionBackground() {
   var next    = current + 1;
   var total   = BackgroundCounter.total;
   var prefix  = 'step-';
-  var $footer = $("footer");
+  // var $footer = $("footer");
 
   $body.removeClass(prefix + current);
   next = (next >= total) ? 0 : next;
   $body.addClass(prefix + next);
  
   BackgroundCounter.current = next;
-  $footer.html(next + 1);
+  // $footer.html(next + 1);
 };
 
 function transitionBackgroundBack() {
@@ -33,7 +33,7 @@ function transitionBackgroundBack() {
 
 $(document).ready(function() {
   var $body   = $("body");
-  var $footer = $("footer");
+  // var $footer = $("footer");
   var $left   = $("#left");
   var $right  = $("#right")
 
@@ -58,7 +58,7 @@ $(document).ready(function() {
     $left.on("click", transitionBackgroundBack);
     $right.on("click", transitionBackground);
   } else {
-    $footer.addClass("hidden");
+    // $footer.addClass("hidden");
     $left.addClass("hidden");
     $right.addClass("hidden");
   };
