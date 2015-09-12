@@ -152,7 +152,13 @@ body {
 		background-position: bottom right;
 		background-size: auto auto;
 		background-color: #fafafa;
+	}
 
+	&.contacts {
+		background-image: url(/img/profile/profile2.png);
+		background-position: bottom right;
+		background-size: auto auto;
+		background-color: #fafafa;
 	}
 }
 
@@ -160,22 +166,21 @@ body {
 	position: absolute;
 	background-color: white;
 	width: 220px;
-	width: 330px;
 	top: 0;
 	left: 44px;
 	padding: 0;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.6);
 	color: black;
 
 	h1 {
-		line-height: 66px;
+		font-size: 36px;
+		line-height: 44px;
 		margin: 0;
 		padding: 44px 11px;
 	}
 
 	a {
 		color: rgb(29, 30, 32);
-		text-decoration: none;
 	}
 
 	ul {
@@ -188,8 +193,8 @@ body {
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		font-size: 24px;
-		line-height: 44px;
+		font-size: 22px;
+		line-height: 78px;
 		text-transform: capitalize;
 		letter-spacing: 1px;
 
@@ -226,6 +231,10 @@ body {
 
 .contact a {
 	text-transform: lowercase;
+}
+
+li	{
+	list-style: none;
 }
 
 footer {
@@ -267,7 +276,7 @@ footer {
 	bottom: 0;
 	right: 44px;
 	height: 66px;
-color: rgba(255,255,255,0.6);
+	color: rgba(255,255,255,0.6);
 	font-size: 36px;
 	line-height: 66px;
 	font-weight: bold;
