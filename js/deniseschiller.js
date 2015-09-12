@@ -32,12 +32,17 @@ function transitionBackgroundBack() {
 };
 
 $(document).ready(function() {
-  var $body   = $("body");
-  // var $footer = $("footer");
-  var $left   = $("#left");
-  var $right  = $("#right")
+  var $body     = $("body");
+  var $left     = $("#left");
+  var $right    = $("#right")
+  var $menuLink = $('a[href="' + document.location.pathname + '"]:not(.projects-title)');
+  var $projects = $menuLink.parents(".projects");
 
-  $('a[href="' + document.location.pathname + '"]').parent().addClass('active');
+  $menuLink.parent().addClass('active');
+
+  if ($projects.length) {
+    $projects.find('ul').removeClass('hidden');
+  };
 
   if (BackgroundCounter.total > 0) {
     var seconds  = 10000;
