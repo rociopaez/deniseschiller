@@ -24,78 +24,6 @@ body {
 		// background-image: url(/img/jenny/IMG_3846.jpg);
 	}
 
-	&.collado {
-		&.step-0 {
-			background-image: url(/img/collado/DSC014.jpg);
-		}
-		&.step-1 {
-			background-image: url(/img/collado/DSC012.jpg);
-		}
-		&.step-2 {
-			background-image: url(/img/collado/DSC013.jpg);
-		}
-		&.step-3 {
-			background-image: url(/img/dpto_fx/IMG_6595.jpg);
-		}
-		&.step-4 {
-			background-image: url(/img/dpto_fx/IMG_6598.jpg);
-		}
-		&.step-5 {
-			background-image: url(/img/dpto_fx/IMG_6600.jpg);
-		}
-		&.step-6 {
-			background-image: url(/img/dpto_fx/IMG_6609.jpg);
-		}
-		&.step-7 {
-			background-image: url(/img/dpto_fx/IMG_6617.jpg);
-		}
-		&.step-8 {
-			background-image: url(/img/dpto_fx/IMG_6620.jpg);
-		}
-	}
-
-	&.jenny {
-		&.step-0 {
-			background-image: url(/img/jenny/IMG_3844.jpg);
-		}
-		&.step-1 {
-			background-image: url(/img/jenny/IMG_3876.jpg);
-		}
-		&.step-2 {
-			background-image: url(/img/jenny/IMG_3879.jpg);
-		}
-		&.step-3 {
-			background-image: url(/img/jenny/IMG_3884.jpg);
-		}
-		&.step-4 {
-			background-image: url(/img/jenny/IMG_3885.jpg);
-		}
-	}
-
-	&.silvia_alex {
-		&.step-0 {
-			background-image: url(/img/silvia_alex/IMG_6553.JPG);
-		}
-		&.step-1 {
-			background-image: url(/img/silvia_alex/IMG_8231.JPG);
-		}
-		&.step-2 {
-			background-image: url(/img/silvia_alex/IMG_8229.JPG);
-		}
-		&.step-3 {
-			background-image: url(/img/silvia_alex/IMG_6518.JPG);
-		}
-		&.step-4 {
-			background-image: url(/img/silvia_alex/IMG_6519.JPG);
-		}
-		&.step-5 {
-			background-image: url(/img/silvia_alex/IMG_6520.JPG);
-		}
-		&.step-6 {
-			background-image: url(/img/silvia_alex/IMG_6544.JPG);
-		}
-	}
-
 	&.dpto_fx {
 		&.step-0 {
 			background-image: url(/img/dpto_fx/IMG_6584.jpg);
@@ -156,6 +84,90 @@ body {
 		}
 		&.step-9 {
 			background-image: url(/img/casa_js/IMG_6582.jpg);
+		}
+	}
+
+	&.dpto_ks_panama {
+		&.step-0 {
+			background-image: url(/img/dpto_ks_panama/1208_2358.jpg);
+		}
+		&.step-1 {
+			background-image: url(/img/dpto_ks_panama/1208_2342.jpg);
+		}
+		&.step-2 {
+			background-image: url(/img/dpto_ks_panama/1208_2366.jpg);
+		}
+		&.step-3 {
+			background-image: url(/img/dpto_ks_panama/1208_2373.jpg);
+		}
+		&.step-4 {
+			background-image: url(/img/dpto_ks_panama/1208_2383.jpg);
+		}
+		&.step-5 {
+			background-image: url(/img/dpto_ks_panama/1208_2395.jpg);
+		}
+		&.step-6 {
+			background-image: url(/img/dpto_ks_panama/1208_2401.jpg);
+		}
+		&.step-7 {
+			background-image: url(/img/dpto_ks_panama/1208_2433.jpg);
+		}
+		&.step-8 {
+			background-image: url(/img/dpto_ks_panama/1209_2335.jpg);
+		}
+	}
+
+	&.dpto_cj_jenny {
+		&.step-0 {
+			background-image: url(/img/jenny/IMG_3844.jpg);
+		}
+		&.step-1 {
+			background-image: url(/img/jenny/IMG_3876.jpg);
+		}
+		&.step-2 {
+			background-image: url(/img/jenny/IMG_3879.jpg);
+		}
+		&.step-3 {
+			background-image: url(/img/jenny/IMG_3884.jpg);
+		}
+		&.step-4 {
+			background-image: url(/img/jenny/IMG_3885.jpg);
+		}
+	}
+
+	&.silvia_alex {
+		&.step-0 {
+			background-image: url(/img/silvia_alex/IMG_6553.JPG);
+		}
+		&.step-1 {
+			background-image: url(/img/silvia_alex/IMG_8231.JPG);
+		}
+		&.step-2 {
+			background-image: url(/img/silvia_alex/IMG_8229.JPG);
+		}
+		&.step-3 {
+			background-image: url(/img/silvia_alex/IMG_6518.JPG);
+		}
+		&.step-4 {
+			background-image: url(/img/silvia_alex/IMG_6519.JPG);
+		}
+		&.step-5 {
+			background-image: url(/img/silvia_alex/IMG_6520.JPG);
+		}
+		&.step-6 {
+			background-image: url(/img/silvia_alex/IMG_6544.JPG);
+		}
+	}
+
+	&.collado {
+		&.step-0 {
+			background-image: url(/img/collado/DSC014.jpg);
+		}
+		&.step-1 {
+			background-image: url(/img/collado/DSC012.jpg);
+		}
+		&.step-2 {
+			background-image: url(/img/collado/DSC013.jpg);
 		}
 	}
 
