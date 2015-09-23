@@ -4,368 +4,425 @@
 $font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
 
 html {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	height: 100%;
-	font-family: $font-family;
-	position: relative;
-	padding: 0;
-	margin: 0;
+  height: 100%;
+  font-family: $font-family;
+  position: relative;
+  padding: 0;
+  margin: 0;
 
-	background-size: cover;
-	background-position: top center;
-	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
 
-	&.home {
-		background-image: url(/img/home/IMG_6612.jpg);
-		// background-image: url(/img/home/IMG_6617.jpg)
-		// background-image: url(/img/jenny/IMG_3846.jpg);
-	}
+  &.home {
+    background-image: url(/img/home/IMG_6612.jpg);
+    // background-image: url(/img/home/IMG_6617.jpg)
+    // background-image: url(/img/jenny/IMG_3846.jpg);
+  }
 
-	&.dpto_fx {
-		&.step-0 {
-			background-image: url(/img/dpto_fx/IMG_6584.jpg);
-		}
-		&.step-1 {
-			background-image: url(/img/dpto_fx/IMG_6587.jpg);
-		}
-		&.step-2 {
-			background-image: url(/img/dpto_fx/IMG_6593.jpg);
-		}
-		&.step-3 {
-			background-image: url(/img/dpto_fx/IMG_6595.jpg);
-		}
-		&.step-4 {
-			background-image: url(/img/dpto_fx/IMG_6598.jpg);
-		}
-		&.step-5 {
-			background-image: url(/img/dpto_fx/IMG_6600.jpg);
-		}
-		&.step-6 {
-			background-image: url(/img/dpto_fx/IMG_6609.jpg);
-		}
-		&.step-7 {
-			background-image: url(/img/dpto_fx/IMG_6617.jpg);
-		}
-		&.step-8 {
-			background-image: url(/img/dpto_fx/IMG_6620.jpg);
-		}
-	}
+  &.dpto_fx {
+    &.step-0 {
+      background-image: url(/img/dpto_fx/IMG_6584.jpg);
+    }
+    &.step-1 {
+      background-image: url(/img/dpto_fx/IMG_6587.jpg);
+    }
+    &.step-2 {
+      background-image: url(/img/dpto_fx/IMG_6593.jpg);
+    }
+    &.step-3 {
+      background-image: url(/img/dpto_fx/IMG_6595.jpg);
+    }
+    &.step-4 {
+      background-image: url(/img/dpto_fx/IMG_6598.jpg);
+    }
+    &.step-5 {
+      background-image: url(/img/dpto_fx/IMG_6600.jpg);
+    }
+    &.step-6 {
+      background-image: url(/img/dpto_fx/IMG_6609.jpg);
+    }
+    &.step-7 {
+      background-image: url(/img/dpto_fx/IMG_6617.jpg);
+    }
+    &.step-8 {
+      background-image: url(/img/dpto_fx/IMG_6620.jpg);
+    }
+  }
 
-	&.casa_js {
-		&.step-0 {
-			background-image: url(/img/casa_js/IMG_6562.jpg);
-		}
-		&.step-1 {
-			background-image: url(/img/casa_js/IMG_6558.jpg);
-		}
-		&.step-2 {
-			background-image: url(/img/casa_js/IMG_6559.jpg);
-		}
-		&.step-3 {
-			background-image: url(/img/casa_js/IMG_6561.jpg);
-		}
-		&.step-4 {
-			background-image: url(/img/casa_js/IMG_6565.jpg);
-		}
-		&.step-5 {
-			background-image: url(/img/casa_js/IMG_6569.jpg);
-		}
-		&.step-6 {
-			background-image: url(/img/casa_js/IMG_6572.jpg);
-		}
-		&.step-7 {
-			background-image: url(/img/casa_js/IMG_6574.jpg);
-		}
-		&.step-8 {
-			background-image: url(/img/casa_js/IMG_6579.jpg);
-		}
-		&.step-9 {
-			background-image: url(/img/casa_js/IMG_6582.jpg);
-		}
-	}
+  &.casa_js {
+    &.step-0 {
+      background-image: url(/img/casa_js/IMG_6562.jpg);
+    }
+    &.step-1 {
+      background-image: url(/img/casa_js/IMG_6558.jpg);
+    }
+    &.step-2 {
+      background-image: url(/img/casa_js/IMG_6559.jpg);
+    }
+    &.step-3 {
+      background-image: url(/img/casa_js/IMG_6561.jpg);
+    }
+    &.step-4 {
+      background-image: url(/img/casa_js/IMG_6565.jpg);
+    }
+    &.step-5 {
+      background-image: url(/img/casa_js/IMG_6569.jpg);
+    }
+    &.step-6 {
+      background-image: url(/img/casa_js/IMG_6572.jpg);
+    }
+    &.step-7 {
+      background-image: url(/img/casa_js/IMG_6574.jpg);
+    }
+    &.step-8 {
+      background-image: url(/img/casa_js/IMG_6579.jpg);
+    }
+    &.step-9 {
+      background-image: url(/img/casa_js/IMG_6582.jpg);
+    }
+  }
 
-	&.dpto_ks_panama {
-		&.step-0 {
-			background-image: url(/img/dpto_ks_panama/1208_2358.jpg);
-		}
-		&.step-1 {
-			background-image: url(/img/dpto_ks_panama/1208_2342.jpg);
-		}
-		&.step-2 {
-			background-image: url(/img/dpto_ks_panama/1208_2366_crop.jpg);
-		}
-		&.step-3 {
-			background-image: url(/img/dpto_ks_panama/1208_2373_crop.jpg);
-		}
-		&.step-4 {
-			background-image: url(/img/dpto_ks_panama/1208_2383.jpg);
-		}
-		&.step-5 {
-			background-image: url(/img/dpto_ks_panama/1208_2395_crop.jpg);
-		}
-		&.step-6 {
-			background-image: url(/img/dpto_ks_panama/1208_2401.jpg);
-		}
-		&.step-7 {
-			background-image: url(/img/dpto_ks_panama/1208_2433.jpg);
-		}
-		&.step-8 {
-			background-image: url(/img/dpto_ks_panama/1209_2335.jpg);
-		}
-	}
+  &.dpto_ks_panama {
+    &.step-0 {
+      background-image: url(/img/dpto_ks_panama/1208_2358.jpg);
+    }
+    &.step-1 {
+      background-image: url(/img/dpto_ks_panama/1208_2342.jpg);
+    }
+    &.step-2 {
+      background-image: url(/img/dpto_ks_panama/1208_2366_crop.jpg);
+    }
+    &.step-3 {
+      background-image: url(/img/dpto_ks_panama/1208_2373_crop.jpg);
+    }
+    &.step-4 {
+      background-image: url(/img/dpto_ks_panama/1208_2383.jpg);
+    }
+    &.step-5 {
+      background-image: url(/img/dpto_ks_panama/1208_2395_crop.jpg);
+    }
+    &.step-6 {
+      background-image: url(/img/dpto_ks_panama/1208_2401.jpg);
+    }
+    &.step-7 {
+      background-image: url(/img/dpto_ks_panama/1208_2433.jpg);
+    }
+    &.step-8 {
+      background-image: url(/img/dpto_ks_panama/1209_2335.jpg);
+    }
+  }
 
-	&.dpto_cj_jenny {
-		&.step-0 {
-			background-image: url(/img/dpto_cj_jenny/IMG_3881.jpg);
-		}
-		&.step-1 {
-			background-image: url(/img/dpto_cj_jenny/IMG_3842.jpg);
-		}
-		&.step-2 {
-			background-image: url(/img/dpto_cj_jenny/IMG_3845.jpg);
-		}
-		&.step-3 {
-			background-image: url(/img/dpto_cj_jenny/IMG_3876.jpg);
-		}
-		&.step-4 {
-			background-image: url(/img/dpto_cj_jenny/IMG_3885.jpg);
-		}
-		&.step-5 {
-			background-image: url(/img/dpto_cj_jenny/IMG_3886.jpg);
-		}
-	}
+  &.dpto_cj_jenny {
+    &.step-0 {
+      background-image: url(/img/dpto_cj_jenny/IMG_3881.jpg);
+    }
+    &.step-1 {
+      background-image: url(/img/dpto_cj_jenny/IMG_3842.jpg);
+    }
+    &.step-2 {
+      background-image: url(/img/dpto_cj_jenny/IMG_3845.jpg);
+    }
+    &.step-3 {
+      background-image: url(/img/dpto_cj_jenny/IMG_3876.jpg);
+    }
+    &.step-4 {
+      background-image: url(/img/dpto_cj_jenny/IMG_3885.jpg);
+    }
+    &.step-5 {
+      background-image: url(/img/dpto_cj_jenny/IMG_3886.jpg);
+    }
+  }
 
-	&.dpto_as {
-		&.step-0 {
-			background-image: url(/img/dpto_as/IMG_6516.JPG);
-		}
-		&.step-1 {
-			background-image: url(/img/dpto_as/IMG_6513.JPG);
-		}
-		&.step-2 {
-			background-image: url(/img/dpto_as/IMG_6520.JPG);
-		}
-		&.step-3 {
-			background-image: url(/img/dpto_as/IMG_6529.JPG);
-		}
-		&.step-4 {
-			background-image: url(/img/dpto_as/IMG_6533.JPG);
-		}
-		&.step-5 {
-			background-image: url(/img/dpto_as/IMG_6544.JPG);
-		}
-		&.step-6 {
-			background-image: url(/img/dpto_as/IMG_6549-EDITAR.JPG);
-		}
-		&.step-7 {
-			background-image: url(/img/dpto_as/IMG_6553.JPG);
-		}
-	}
+  &.dpto_as {
+    &.step-0 {
+      background-image: url(/img/dpto_as/IMG_6516.JPG);
+    }
+    &.step-1 {
+      background-image: url(/img/dpto_as/IMG_6513.JPG);
+    }
+    &.step-2 {
+      background-image: url(/img/dpto_as/IMG_6520.JPG);
+    }
+    &.step-3 {
+      background-image: url(/img/dpto_as/IMG_6529.JPG);
+    }
+    &.step-4 {
+      background-image: url(/img/dpto_as/IMG_6533.JPG);
+    }
+    &.step-5 {
+      background-image: url(/img/dpto_as/IMG_6544.JPG);
+    }
+    &.step-6 {
+      background-image: url(/img/dpto_as/IMG_6549-EDITAR.JPG);
+    }
+    &.step-7 {
+      background-image: url(/img/dpto_as/IMG_6553.JPG);
+    }
+  }
 
-	&.dpto_ja_collado {
-		&.step-0 {
-			background-image: url(/img/dpto_ja_collado/DSC014.jpg);
-		}
-		&.step-1 {
-			background-image: url(/img/dpto_ja_collado/DSC012.jpg);
-		}
-		&.step-2 {
-			background-image: url(/img/dpto_ja_collado/DSC013.jpg);
-		}
-	}
+  &.dpto_ja_collado {
+    &.step-0 {
+      background-image: url(/img/dpto_ja_collado/DSC014.jpg);
+    }
+    &.step-1 {
+      background-image: url(/img/dpto_ja_collado/DSC012.jpg);
+    }
+    &.step-2 {
+      background-image: url(/img/dpto_ja_collado/DSC013.jpg);
+    }
+  }
 
-	&.profile {
-		background-image: url(/img/profile/profile2.png);
-		background-position: bottom right;
-		background-size: auto auto;
-		background-color: #fafafa;
-	}
+  &.profile {
+    background-image: url(/img/profile/profile2.png);
+    background-position: bottom right;
+    background-size: auto auto;
+    background-color: #fafafa;
+  }
 
-	&.contacts {
-		background-image: url(/img/profile/profile2.png);
-		background-position: bottom right;
-		background-size: auto auto;
-		background-color: #fafafa;
-	}
+  &.contact {
+    background-position: bottom right;
+    background-size: auto auto;
+    background-color: #f0f0f0;
+  }
 }
 
-// .wuffo {
-// 	background-color: gba(255, 255, 255, 0.6);;
-// }
-
-#wufoo-qc6ss2l00ulasr input.text {
-	background-color: red;
+form {
+  width: 35%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 20px;
 }
 
-input {
-	background-color: #fafafa;
+form input {
+  border: none;
+  width: 380px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
 }
 
-textarea {
-	background-color: #fafafa;
+form textarea {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
 }
 
+form input[type="submit"] {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  border-radius: 3px;
+  width: 30%;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  margin-top: 11px;
+}
+
+fieldset {
+  border: none;
+  margin: 0 auto;
+}
+
+fieldset label {
+  font-weight: bold;
+  display: block;
+  line-height: 32px;
+  margin-top: 11px;
+  // text-transform: uppercase;
+}
 
 #ribbon {
-	position: absolute;
-	background-color: white;
-	width: 220px;
-	top: 0;
-	left: 44px;
-	padding: 0;
-	background-color: rgba(255, 255, 255, 0.6);
-	color: black;
+  position: absolute;
+  background-color: white;
+  width: 220px;
+  top: 0;
+  left: 44px;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
 
-	h1 {
-		font-size: 36px;
-		line-height: 44px;
-		margin: 0;
-		padding: 44px 11px;
-	}
+  h1 {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+    padding: 44px 11px;
+    text-transform: capitalize;
+  }
 
-	a {
-		color: rgb(29, 30, 32);
-	}
+  a {
+    color: rgb(29, 30, 32);
+  }
 
-	ul {
-		margin: 0;
-		padding: 11px;
-	}
+  ul {
+    margin: 0;
+    padding: 11px;
+  }
 
-	li {
-		font-family: Didot, $font-family;
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		font-size: 22px;
-		line-height: 78px;
-		text-transform: capitalize;
-		letter-spacing: 1px;
+  li {
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 22px;
+    line-height: 78px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
 
-		&.active {
-			font-weight: bold;
-		}
+    &.active {
+      font-weight: bold;
+    }
 
-		&.contact {
-			font-size: 14px;
-			font-family: $font-family;
-		}
-
-		li {
-			line-height: 22px;
-		}
-	}
+    li {
+      line-height: 22px;
+    }
+  }
 }
 
 .main-canvas {
-	margin: 0;
-	padding: 176px 44px 44px 308px;
-	max-width: 660px;
-	line-height: 22px;
-	font-size: 16px;
+  margin: 0;
+  padding: 176px 44px 44px 308px;
+  max-width: 660px;
+  line-height: 22px;
+  font-size: 16px;
+  // margin-left: 220px;
+}
 
-	p {
-		margin-bottom: 22px;
-	}
+.info {
+  float: left;
+  bottom: 0;
+  left: 44px;
+  height: 66px;
+  // color: rgba(255,255,255,0.6);
+  font-size: 16px;
+  line-height: 44px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 22px;
 }
 
 .projects li a {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .contact a {
-	text-transform: lowercase;
+  text-transform: lowercase;
+  color: black;
 }
 
-li	{
-	list-style: none;
+li  {
+  list-style: none;
 }
 
 footer {
-	// background-color: rgba(0,0,0,0.5);   la barra negra
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	height: 44px;
-	color: #ccc;
-	font-size: 24px;
-	line-height: 44px;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
-	text-align: center;
+  // background-color: rgba(0,0,0,0.5);   la barra negra
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 44px;
+  color: #ccc;
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 
-	span {
-		display: block;
-		margin: 0 auto;
-	}
+  span {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 #left {
-	position: fixed;
-	bottom: 0;
-	left: 44px;
-	height: 66px;
-	color: rgba(255,255,255,0.6);
-	font-size: 36px;
-	line-height: 66px;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
+  position: fixed;
+  bottom: 0;
+  left: 44px;
+  height: 66px;
+  color: rgba(255,255,255,0.6);
+  font-size: 36px;
+  line-height: 66px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 #right {
-	position: fixed;
-	bottom: 0;
-	right: 44px;
-	height: 66px;
-	color: rgba(255,255,255,0.6);
-	font-size: 36px;
-	line-height: 66px;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
+  position: fixed;
+  bottom: 0;
+  right: 44px;
+  height: 66px;
+  color: rgba(255,255,255,0.6);
+  font-size: 36px;
+  line-height: 66px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
-a:link
-{
- text-decoration:none;
+a:link {
+ text-decoration: none;
 }
 
-	.hidden {
-	display: none;
+.hidden {
+  display: none;
 }
 
 @media only screen and (max-device-width: 640px) {
-	#left, #right, footer {
-		height: 132px;
-		line-height: 132px;
-	}
+  #left, #right, footer {
+    height: 132px;
+    line-height: 132px;
+  }
 
-	footer {
-		font-size: 48px;
-	}
+  footer {
+    font-size: 48px;
+  }
 
-	#left, #right {
-		font-size: 72px;
-	}
+  #left, #right {
+    font-size: 72px;
+  }
 }
 
 @media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
-	#left, #right, footer {
-		height: 88px;
-		line-height: 88px;
-	}
+  #left, #right, footer {
+    height: 88px;
+    line-height: 88px;
+  }
 
-	footer {
-		font-size: 36px;
-	}
+  footer {
+    font-size: 36px;
+  }
 
-	#left, #right {
-		font-size: 48px;
-	}
+  #left, #right {
+    font-size: 48px;
+  }
 }
