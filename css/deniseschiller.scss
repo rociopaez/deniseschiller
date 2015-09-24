@@ -229,17 +229,15 @@ form textarea {
 
 form input[type="submit"] {
   border: none;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(#fcfcfc, 0.34);
   color: black;
   padding: 5px 10px;
   font-size: 14px;
   font-weight: bold;
   line-height: 18px;
   border-radius: 3px;
-  width: 30%;
+  width: 25%;
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -webkit-appearance: none;
   margin-top: 11px;
 }
 
@@ -312,6 +310,14 @@ fieldset label {
   // margin-left: 220px;
 }
 
+.contact-form {
+  margin: 0;
+  padding: 44px 44px 44px 308px;
+  max-width: 660px;
+  line-height: 22px;
+  font-size: 16px;
+}
+
 .info {
   float: left;
   bottom: 0;
@@ -333,8 +339,7 @@ p {
   font-size: 18px;
 }
 
-.contact a {
-  text-transform: lowercase;
+.contact-info a {
   color: black;
 }
 
