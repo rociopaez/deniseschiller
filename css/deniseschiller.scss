@@ -1,7 +1,7 @@
 ---
 ---
 
-$font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+$font-family: "Gill Sans";
 
 html {
   height: 100%;
@@ -283,6 +283,7 @@ fieldset label {
 
   li {
     font-family: $font-family;
+    font-weight: 300;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -292,7 +293,7 @@ fieldset label {
     letter-spacing: 1px;
 
     &.active {
-      font-weight: bold;
+      font-weight: 500;
     }
 
     li {
