@@ -182,8 +182,7 @@ body {
   }
 
   &.contact {
-    background-position: bottom right;
-    background-size: auto auto;
+    background-image: url(/img/casa_js/IMG_6558.jpg);
     background-color: #f0f0f0;
   }
 }
@@ -310,7 +309,7 @@ fieldset label {
 
 .contact-form {
   margin: 0;
-  padding: 44px 44px 44px 308px;
+  padding: 88px 44px 44px 308px;
   max-width: 660px;
   line-height: 22px;
   font-size: 16px;
@@ -320,7 +319,6 @@ fieldset label {
   font-size: 16px;
   line-height: 44px;
   font-weight: normal;
-}
 }
 
 p {
