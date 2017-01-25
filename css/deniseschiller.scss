@@ -159,6 +159,42 @@ body {
     }
   }
 
+  &.v_studio {
+    &.step-0 {
+      background-image: url(/img/v_studio/IMG_5855.jpg);
+    }
+    &.step-1 {
+      background-image: url(/img/v_studio/IMG_5837-Editar.jpg);
+    }
+    &.step-2 {
+      background-image: url(/img/v_studio/IMG_5840-Editar.jpg);
+    }
+    &.step-3 {
+      background-image: url(/img/v_studio/IMG_5844.jpg);
+    }
+    &.step-4 {
+      background-image: url(/img/v_studio/IMG_5848-Editar.jpg);
+    }
+    &.step-5 {
+      background-image: url(/img/v_studio/IMG_5853.jpg);
+    }
+    &.step-6 {
+      background-image: url(/img/v_studio/IMG_5836.jpg);
+    }
+    &.step-7 {
+      background-image: url(/img/v_studio/IMG_5862-Editar.jpg);
+    }
+    &.step-8 {
+      background-image: url(/img/v_studio/IMG_5866-Editar-Editar.jpg);
+    }
+    &.step-9 {
+      background-image: url(/img/v_studio/IMG_5871-Editar.jpg);
+    }
+    &.step-10 {
+      background-image: url(/img/v_studio/IMG_5873-Editar.jpg);
+    }
+  }
+
   &.profile {
     background-image: url(/img/profile/profile2.png);
     background-position: bottom right;
