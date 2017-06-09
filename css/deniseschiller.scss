@@ -247,14 +247,14 @@ form textarea {
 
 form input[type="submit"] {
   border: none;
-  background-color: rgba(#fcfcfc, 0.34);
+  background-color: rgba(#fcfcfc, 0.6);
   color: black;
   padding: 5px 10px;
-  font-size: 14px;
+  // font-size: 14px;
   font-weight: bold;
   line-height: 18px;
-  border-radius: 3px;
-  width: 25%;
+  // border-radius: 2px;
+  width: 35%;
   box-sizing: border-box;
   margin-top: 11px;
 }
@@ -265,11 +265,10 @@ fieldset {
 }
 
 fieldset label {
-  font-weight: bold;
+  font-weight: normal;
   display: block;
   line-height: 32px;
   margin-top: 11px;
-  // text-transform: uppercase;
 }
 
 #ribbon {
@@ -340,11 +339,30 @@ fieldset label {
   font-size: 16px;
 }
 
-.info {
-  font-size: 16px;
-  line-height: 44px;
-  font-weight: normal;
-}
+// .info {
+//   //
+//   //
+//   // font-weight: 300;
+//   // background-color: rgba(255, 255, 255, 0.6);
+//   // position: absolute;
+//   // width: 20%;
+//   // // box-sizing: border-box;
+//   // left: 50%;
+//   // padding: 0;
+//   // bottom: 50%;
+//   // text-align: left;
+//
+//   font-size: 16px;
+//   line-height: 22px;
+//   position: absolute;
+//   width: 220px;
+//   bottom: 40px;
+//   left: 44px;
+//
+//   background-color: rgba(255, 255, 255, 0.6);
+//
+//   text-align: center;
+// }
 
 p {
   margin-bottom: 22px;
