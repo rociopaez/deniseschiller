@@ -196,10 +196,6 @@ body {
   }
 
   &.profile {
-    background-image: url(/img/profile/denise.jpg);
-    background-size: 30%;
-    background-position: bottom center;
-    background-size: auto auto;
     background-color: #fafafa;
 
   }
@@ -334,9 +330,22 @@ fieldset label {
 .contact-form {
   margin: 0;
   padding: 88px 44px 44px 308px;
+.profile_picture {
+  margin: 0 auto;
+  padding: 176px 44px 44px 308px;
   max-width: 660px;
+ //no se si sea necesario poner un width al texto
   line-height: 22px;
   font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.profile_picture img {
+  max-width: 660px;
+  @media (max-width: 900px) {
+    width: 300px;
+  }
 }
 
 // .info {
