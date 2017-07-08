@@ -201,6 +201,7 @@ body {
   }
 
   &.contact {
+    // background-image: url(/img/contact/plano1.jpg);
     background-color: #f0f0f0;
   }
 }
@@ -315,21 +316,19 @@ fieldset label {
   }
 }
 
-.main-canvas {
-  margin: 0 70px;
-  max-width: 720px;
-  padding: 176px 44px 44px 308px;
-  max-width: 660px;
-  line-height: 22px;
-  font-size: 16px;
-  font-weight: 300;
-  text-align: justify;
+// .main-canvas {
+//   margin: 0 70px;
+//   padding: 176px 44px 44px 308px;
+//   max-width: 660px;
+//   @media (max-width: 900px) {
+//     p { color: white;}
+//   }
+//   line-height: 22px;
+//   font-size: 16px;
+//   font-weight: 300;
+//   text-align: justify;
+// }
 
-}
-
-.contact-form {
-  margin: 0;
-  padding: 88px 44px 44px 308px;
 .profile_picture {
   margin: 0 auto;
   padding: 176px 44px 44px 308px;
@@ -347,6 +346,29 @@ fieldset label {
     width: 300px;
   }
 }
+
+.contact-info {
+  margin: 0 70px;
+  padding: 176px 44px 44px 308px;
+  max-width: 300px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.contact-info li a {
+  color: black;
+  font-size: 16px;
+}
+
+// .contact-form {
+//   margin: 0;
+//   padding: 88px 44px 44px 308px;
+//   max-width: 660px;
+//   line-height: 22px;
+//   font-size: 16px;
+// }
 
 // .info {
 //   //
@@ -379,11 +401,6 @@ p {
 
 .projects li a {
   font-size: 18px;
-}
-
-.contact-info a {
-  color: black;
-  font-size: 16px;
 }
 
 li  {
