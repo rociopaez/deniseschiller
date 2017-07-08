@@ -331,8 +331,11 @@ fieldset label {
 
 .profile_picture {
   margin: 0 auto;
-  padding: 176px 44px 44px 308px;
+  padding: 176px 44px 44px 176px;
   max-width: 660px;
+  @media (max-width: 1200px) {
+    padding: 176px 44px 44px 308px;
+  }
  //no se si sea necesario poner un width al texto
   line-height: 22px;
   font-size: 16px;
