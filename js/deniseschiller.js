@@ -45,7 +45,7 @@ $(document).ready(function() {
   };
 
   if (BackgroundCounter.total > 0) {
-    var seconds  = 10000;
+    var seconds  = 5000;
     var interval = window.setInterval(transitionBackground, seconds);
 
     $body.addClass('step-0');
