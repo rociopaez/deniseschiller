@@ -17,6 +17,7 @@ body {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
+  background-color: black;
 
   &.home {
     background-image: url(/img/home/IMG_6612.jpg);
@@ -316,6 +317,7 @@ fieldset label {
   }
 }
 
+
 // .main-canvas {
 //   margin: 0 70px;
 //   padding: 176px 44px 44px 308px;
@@ -351,13 +353,27 @@ fieldset label {
 }
 
 .contact-info {
-  margin: 0 70px;
-  padding: 176px 44px 44px 308px;
-  max-width: 300px;
-  line-height: 24px;
-  font-size: 16px;
+  // margin: 0 70px;
+  // padding: 176px 44px 44px 308px;
+  // max-width: 200px;
+  // line-height: 24px;
+  // font-size: 16px;
+  // font-weight: 300;
+  // text-align: justify;
+
+  position: absolute;
+  // width: 220px;
+  max-width: 660px;
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    margin-left: 80px;
+}
+  top: 6%;
+  left: 20%;
+  padding: 0;
   font-weight: 300;
-  text-align: justify;
+  line-height: 24px;
 }
 
 .contact-info li a {
