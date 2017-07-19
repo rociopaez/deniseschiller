@@ -347,8 +347,18 @@ fieldset label {
 
 .profile_picture img {
   max-width: 660px;
-  @media (max-width: 900px) {
-    width: 300px;
+  // @media (max-width: 900px) {
+  //   width: 300px;
+  // }
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    width: 630px;
+  }
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px) {
+    width: 630px;
   }
 }
 
