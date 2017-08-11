@@ -477,6 +477,13 @@ footer {
   }
 }
 
+#cursor a img {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 7px;
+  border-radius: 15%;
+}
+
 #left {
   position: fixed;
   bottom: 0;
@@ -493,7 +500,7 @@ footer {
 #right {
   position: fixed;
   bottom: 0;
-  right: 44px;
+  right: 0;
   height: 66px;
   color: rgba(255,255,255,0.6);
   font-size: 36px;
